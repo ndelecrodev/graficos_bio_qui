@@ -1,0 +1,26 @@
+[project]
+name = "graficos-multi"
+version = "0.1.0"
+description = "Path and projct for bncc scholl work"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+license = "no license"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy (>=2.5.3,<3.0.0)",
+    "matplotlib (>=3.11.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
