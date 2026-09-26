@@ -16,4 +16,8 @@ class Graph():
     @staticmethod
     def plotar() -> None:
         plt.show()
+
+    @staticmethod
+    def build_in_file(name_file: str):
+        plt.savefig(name_file)
         
