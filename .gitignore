@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuição e empacotamento
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Ferramentas de teste e cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Tipagem e ferramentas de desenvolvimento
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Matplotlib e arquivos gerados localmente
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.gif
+
+# IDEs e editores
+.idea/
+.vscode/
+*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos locais e temporários
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.env
+.env.*
+
+# Poetry
+.poetry/
