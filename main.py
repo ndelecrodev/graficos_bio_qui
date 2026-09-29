@@ -1,7 +1,6 @@
 from graphs.graph import Graph
 from tools.tool import Tool
 
-
 n0 = 1000
 time_duplication = 4
 
