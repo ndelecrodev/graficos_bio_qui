@@ -1,11 +1,7 @@
 from graphs.graph import Graph
 from tools.tool import Tool
 
-time = [4, 8, 12, 16, 20, 24]
-cells = [1000, 5000, 10000, 20000, 35000, 65000]
 
-time.insert(0, 0)
-cells.insert(0, 1000)
 
 Graph.build_graph(time, cells, "Graph Etapa 3", "time (h)", "cells", True)
 Graph.build_in_file("Graph Etapa 3")
